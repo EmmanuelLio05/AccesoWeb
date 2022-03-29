@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de sesión</title>
+</head>
+<body>
+    <h2>Inicio de sesión</h2>
+    <form name="formulario" class="contenedor" method="post" action="">
+        <label for="">Id</label>
+        <input type="number" name="id" required="true">
+        <label for="" >Alias</label>
+        <input type="text" name="alias" required="true">
+        <label for="" >Contraseña</label>
+        <input type="password" name= "Contraseña" required = "true"> 
+        <label for="" >Nombre</label>
+        <input type="text" name="nombre" required="true">
+        <label for="" >Apellidos</label>
+        <input type="text" name="apellidos" required="true">
+        <ul>
+            <li>
+                <label for="act">Activo</label>
+                <input type="radio" name="actividad" id="activo">
+            </li>
+            <li>
+                <label for="inact">Inactivo</label>
+                <input type="radio" name="actividad" id="inactivo">
+            </li>
+        </ul>
+        <label for="" >Rol</label>
+        <input type="text" name="rol" required="true">     
+    </form>
