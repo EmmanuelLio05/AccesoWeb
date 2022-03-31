@@ -66,5 +66,9 @@
         public function getRol(){
             return $this->$sRol;
         }
+
+        public function getS(){
+            return "";
+        }
     }
 ?>
