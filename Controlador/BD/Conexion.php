@@ -4,7 +4,7 @@ class UsuarioDao {
     private $server="localhost";
     private $usr="root";
     private $pass ="";
-    private $db ="control";
+    private $db ="accesoweb";
 
     private function conectar(){
                 try{

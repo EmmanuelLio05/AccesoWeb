@@ -1,12 +1,11 @@
 <?php
-
     include("../Controlador/BD/Conexion.php");
     $empleadoDao = new UsuarioDao();
 
     $alias = $_POST['alias'];
     $contrasena = $_POST['contrasena'];
 
-    $csql = "SELECT * FROM usuarios  WHERE Alias = '$alias' and Contraseña = '$contrasena'";
+    $csql = "SELECT * FROM usuarios  WHERE Alias = '$alias' and Password = '$contrasena'";
     
     try{
         $resultado = $empleadoDao->consulta($csql);
